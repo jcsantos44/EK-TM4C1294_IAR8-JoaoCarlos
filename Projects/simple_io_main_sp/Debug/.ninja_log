@@ -1,0 +1,5 @@
+# ninja log v5
+5	237	6359287758334732	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/simple_io_main_sp/Debug/Obj/startup_TM4C1294.o	57669888af87d377
+1	286	6359287758733680	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/simple_io_main_sp/Debug/Obj/simple_io_main_sp.o	9f63addb285fa1e3
+207	323	6359287759102686	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/simple_io_main_sp/Debug/Obj/system_TM4C1294_TW.o	b9ac15459493e0fd
+331	698	6359287762853937	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/simple_io_main_sp/Debug/Exe/simple_io_main_sp.out	35f730c01a31ad9a

@@ -7,6 +7,9 @@
         <path>$WS_DIR$\TivaWare_C_Series-2.1.4.178\driverlib\driverlib.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\Projects\exercise_1\exercise_1.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\Projects\fsm_event\fsm_event.ewp</path>
     </project>
     <project>

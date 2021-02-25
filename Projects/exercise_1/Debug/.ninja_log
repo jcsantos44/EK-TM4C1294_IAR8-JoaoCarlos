@@ -1,0 +1,8 @@
+# ninja log v5
+0	33	6359288785873803	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/startup_TM4C1294.o	dc39befb934c7aa6
+1	29	6359289842243330	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/startup_TM4C1294.o	ee6719c2ac1e95ba
+6	131	6359289843150673	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/system_TM4C1294.o	515f7ec672668710
+1	192	6359290851259820	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/system_TM4C1294.o	2c5cf8766c1eb6a0
+1	86	6359292722999582	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/simple_io_main_sp.o	3427a79450743e3
+2	105	6359292944532264	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Obj/system_TM4C1294_TW.o	69a86206ec408d2a
+2	85	6359293289221251	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_1/Debug/Exe/exercise_1.out	a4f9a0817e676cc6
