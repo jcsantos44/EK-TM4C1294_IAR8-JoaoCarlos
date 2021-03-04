@@ -7,10 +7,40 @@
 #include "driverlib/systick.h"
 
 uint8_t LED_D1 = 0;
+float teste = 2.5;
+float teste2 = 3.5;
+float result = 0;
+
+//Exercicio 3 (exercise_exception):
+//– Quais são os valores dos registradores CONTROL e LR?
+//  0x2 (FLAG SPSEL = 1) e 0x0000 0c2f quando 
+
+//– Qual ponteiro de pilha está sendo usado? Verifique na
+//janela Registers do depurador (banco “CPU Registers”).
+
+
+//QUANDO NA INSTRUCAO DA FUNCAO SYSTICK_HANDLER(VOID)
+// CONTROL = 0x0
+// LR = 0xffff ffed
+
+//QUANDO CHEGA NA INSTRUÇÃO DE INTERRUPCAO SYSTICK_HANDLER
+// CONTROL = 0x4 (FLAG FPCA = 1, SP = SP_process)
+// LR = 0x0000 0a23
+
+//QUANDO NA INSTRUÇÂO DA FUNÇÃO MAIN
+// CONTROL = 0x2 (FLAG FPCA = 0, FLAG SPSEL = 1, SP = SP_process)
+// LR = 0x0000 0c2f
+  
+// Só consegui fazer o registrador CONTROL capturar a floating point unit
+// colocando a operação de float DENTRO da função SYSTICK_HANDLER(), ao contráro
+// da função MAIN como diz no enunciado do exercício e com o breakpoint na 
+// instrução SYSTICK_HANDLER e não SYSTICK_HANDLER(VOID)
+
 
 void SysTick_Handler(void){
   LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
+  result = teste*teste2; //colocando aqui o reg CONTROL seta a flag FPCA
 } // SysTick_Handler
 
 void main(void){
@@ -40,14 +70,17 @@ void main(void){
   SysTickEnable();
 
   while(1){
-    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
+    teste++;
+    result = teste*teste2;
+    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0)
+      // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3
     else
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, GPIO_PIN_4); // Acende LED D3
-
-    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == GPIO_PIN_1) // Testa estado do push-button SW2
-      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Apaga LED D4
-    else
-      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Acende LED D4
+//
+//    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == GPIO_PIN_1) // Testa estado do push-button SW2
+//      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Apaga LED D4
+//    else
+//      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Acende LED D4
   } // while
 } // main

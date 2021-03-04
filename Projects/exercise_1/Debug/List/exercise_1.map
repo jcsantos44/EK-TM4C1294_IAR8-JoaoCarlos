@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  25/Feb/2021  01:08:48
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  03/Mar/2021  03:11:13
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -11,7 +11,7 @@
 #        -f
 #        C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Exe\exercise_1.out.rsp
 #        (C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a
-#        C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj\simple_io_main_sp.o
+#        C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj\exercise_1.o
 #        C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj\startup_TM4C1294.o
 #        C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj\system_TM4C1294_TW.o
 #        --no_out_extension -o
@@ -31,9 +31,8 @@
 Warning[Lt009]: Inconsistent wchar_t size
             gpio.o(driverlib.a) and 4 other objects in driverlib.a have wchar_t
                       size 16 bits
-            simple_io_main_sp.o and 14 other objects, some of them in
-                      dl7M_tln.a and 11 other libraries have wchar_t size 32
-                      bits
+            exercise_1.o and 14 other objects, some of them in dl7M_tln.a and
+                      11 other libraries have wchar_t size 32 bits
 
 
 *******************************************************************************
@@ -71,28 +70,28 @@ define block HEAP with size = 64K, alignment = 8 { };
   .intvec          ro code          0x0   0x3c0  startup_TM4C1294.o [1]
                                 - 0x3c0   0x3c0
 
-"P1":                                     0x8a4
-  .text            ro code        0x3c0   0x4e0  sysctl.o [3]
-  .text            ro code        0x8a0   0x16e  gpio.o [3]
-  .text            ro code        0xa0e     0x2  startup_TM4C1294.o [1]
-  .text            ro code        0xa10   0x114  simple_io_main_sp.o [1]
-  .text            ro code        0xb24    0x28  systick.o [3]
-  .text            ro code        0xb4c    0x38  zero_init3.o [4]
-  .text            ro code        0xb84    0x30  system_TM4C1294_TW.o [1]
-  .text            ro code        0xbb4    0x28  data_init.o [4]
-  .iar.init_table  const          0xbdc    0x10  - Linker created -
-  .text            ro code        0xbec    0x1e  cmain.o [4]
-  .text            ro code        0xc0a     0x4  low_level_init.o [2]
-  .text            ro code        0xc0e     0x4  exit.o [2]
-  .text            ro code        0xc14     0xa  cexit.o [4]
-  .text            ro code        0xc20    0x14  exit.o [5]
-  .text            ro code        0xc34    0x1c  cstartup_M.o [4]
-  .text            ro code        0xc50    0x14  startup_TM4C1294.o [1]
-  .rodata          const          0xc64     0x0  zero_init3.o [4]
-                                - 0xc64   0x8a4
+"P1":                                     0x7fc
+  .text            ro code        0x3c0   0x4e8  sysctl.o [3]
+  .text            ro code        0x8a8   0x148  gpio.o [3]
+  .text            ro code        0x9f0    0x90  exercise_1.o [1]
+  .text            ro code        0xa80    0x28  systick.o [3]
+  .text            ro code        0xaa8    0x38  zero_init3.o [4]
+  .text            ro code        0xae0    0x2c  system_TM4C1294_TW.o [1]
+  .text            ro code        0xb0c    0x28  data_init.o [4]
+  .iar.init_table  const          0xb34    0x10  - Linker created -
+  .text            ro code        0xb44    0x1e  cmain.o [4]
+  .text            ro code        0xb62     0x4  low_level_init.o [2]
+  .text            ro code        0xb66     0x4  exit.o [2]
+  .text            ro code        0xb6a     0x2  startup_TM4C1294.o [1]
+  .text            ro code        0xb6c     0xa  cexit.o [4]
+  .text            ro code        0xb78    0x14  exit.o [5]
+  .text            ro code        0xb8c    0x1c  cstartup_M.o [4]
+  .text            ro code        0xba8    0x14  startup_TM4C1294.o [1]
+  .rodata          const          0xbbc     0x0  zero_init3.o [4]
+                                - 0xbbc   0x7fc
 
 "P2", part 1 of 2:                          0x4
-  .bss             zero     0x2000'0000     0x1  simple_io_main_sp.o [1]
+  .bss             zero     0x2000'0000     0x1  exercise_1.o [1]
                           - 0x2000'0001     0x1
 
 "P2", part 2 of 2:                       0x8004
@@ -105,7 +104,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xc64     0xf'ffff  0xf'f39c
+        0xbbc     0xf'ffff  0xf'f444
   0x2000'8008  0x2003'ffff  0x3'7ff8
 
 
@@ -132,11 +131,11 @@ command line/config:
     Total:
 
 C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj: [1]
-    simple_io_main_sp.o       276                 1
+    exercise_1.o              144                 1
     startup_TM4C1294.o        982
-    system_TM4C1294_TW.o       48                 4
+    system_TM4C1294_TW.o       44                 4
     -----------------------------------------------
-    Total:                  1'306                 5
+    Total:                  1'170                 5
 
 dl7M_tln.a: [2]
     exit.o                      4
@@ -145,11 +144,11 @@ dl7M_tln.a: [2]
     Total:                      8
 
 driverlib.a: [3]
-    gpio.o                    366
-    sysctl.o                1'248
+    gpio.o                    328
+    sysctl.o                1'256
     systick.o                  40
     -----------------------------------------------
-    Total:                  1'654
+    Total:                  1'624
 
 rt7M_tl.a: [4]
     cexit.o                    10
@@ -165,10 +164,10 @@ shb_l.a: [5]
     -----------------------------------------------
     Total:                     20
 
-    Gaps                        4
+    Gaps                        2
     Linker created                      16   32'768
 ---------------------------------------------------
-    Grand Total:            3'156       16   32'773
+    Grand Total:            2'988       16   32'773
 
 
 *******************************************************************************
@@ -177,50 +176,49 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0xbdc          --   Gb  - Linker created -
-.iar.init_table$$Limit        0xbec          --   Gb  - Linker created -
-?main                         0xbed         Code  Gb  cmain.o [4]
+.iar.init_table$$Base         0xb34          --   Gb  - Linker created -
+.iar.init_table$$Limit        0xb44          --   Gb  - Linker created -
+?main                         0xb45         Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0008          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'8008          --   Gb  - Linker created -
-GPIODirModeSet                0x8a1   0x28  Code  Gb  gpio.o [3]
-GPIOPadConfigSet              0x8c9   0xfe  Code  Gb  gpio.o [3]
-GPIOPinRead                   0x9c7    0x6  Code  Gb  gpio.o [3]
-GPIOPinTypeGPIOInput          0x9d7   0x14  Code  Gb  gpio.o [3]
-GPIOPinTypeGPIOOutput         0x9eb    0xa  Code  Gb  gpio.o [3]
-GPIOPinWrite                  0x9cd    0x6  Code  Gb  gpio.o [3]
-LED_D1                  0x2000'0000    0x1  Data  Gb  simple_io_main_sp.o [1]
-Region$$Table$$Base           0xbdc          --   Gb  - Linker created -
-Region$$Table$$Limit          0xbec          --   Gb  - Linker created -
-SysCtlClockFreqSet            0x41d  0x204  Code  Gb  sysctl.o [3]
+GPIODirModeSet                0x8a9   0x28  Code  Gb  gpio.o [3]
+GPIOPadConfigSet              0x8d1   0xfe  Code  Gb  gpio.o [3]
+GPIOPinTypeGPIOOutput         0x9d5    0xa  Code  Gb  gpio.o [3]
+GPIOPinWrite                  0x9cf    0x6  Code  Gb  gpio.o [3]
+LED_D1                  0x2000'0000    0x1  Data  Gb  exercise_1.o [1]
+Region$$Table$$Base           0xb34          --   Gb  - Linker created -
+Region$$Table$$Limit          0xb44          --   Gb  - Linker created -
+SysCtlClockFreqSet            0x425  0x204  Code  Gb  sysctl.o [3]
+SysCtlDelay                   0x41d    0x8  Code  Gb  sysctl.o [3]
 SysCtlPeripheralEnable        0x401    0x8  Code  Gb  sysctl.o [3]
 SysCtlPeripheralReady         0x3e1    0x8  Code  Gb  sysctl.o [3]
-SysTickEnable                 0xb25    0xc  Code  Gb  systick.o [3]
-SysTickIntEnable              0xb31    0xc  Code  Gb  systick.o [3]
-SysTickPeriodSet              0xb3d    0x8  Code  Gb  systick.o [3]
-SysTick_Handler               0xa11   0x1c  Code  Gb  simple_io_main_sp.o [1]
+SysTickEnable                 0xa81    0xc  Code  Gb  systick.o [3]
+SysTickIntEnable              0xa8d    0xc  Code  Gb  systick.o [3]
+SysTickPeriodSet              0xa99    0x8  Code  Gb  systick.o [3]
+SysTick_Handler               0x9f1   0x12  Code  Gb  exercise_1.o [1]
 SystemCoreClock         0x2000'0004    0x4  Data  Gb  system_TM4C1294_TW.o [1]
-SystemInit                    0xb85   0x1c  Code  Gb  system_TM4C1294_TW.o [1]
+SystemInit                    0xae1   0x1a  Code  Gb  system_TM4C1294_TW.o [1]
 _SysCtlMemTimingGet           0x3c1   0x20  Code  Lc  sysctl.o [3]
 __Vectors                       0x0          --   Gb  startup_TM4C1294.o [1]
 __Vectors_End                 0x3c0         Data  Gb  startup_TM4C1294.o [1]
 __Vectors_Size {Abs}          0x3c0          --   Gb  startup_TM4C1294.o [1]
-__cmain                       0xbed         Code  Gb  cmain.o [4]
-__exit                        0xc21   0x14  Code  Gb  exit.o [5]
-__iar_data_init3              0xbb5   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                0xc59         Code  Wk  startup_TM4C1294.o [1]
-__iar_program_start           0xc35         Code  Gb  cstartup_M.o [4]
-__iar_zero_init3              0xb4d   0x38  Code  Gb  zero_init3.o [4]
-__low_level_init              0xc0b    0x4  Code  Gb  low_level_init.o [2]
+__cmain                       0xb45         Code  Gb  cmain.o [4]
+__exit                        0xb79   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0xb0d   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0xbb1         Code  Wk  startup_TM4C1294.o [1]
+__iar_program_start           0xb8d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0xaa9   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0xb63    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0         Data  Gb  startup_TM4C1294.o [1]
 __vector_table_0x1c            0x1c         Data  Gb  startup_TM4C1294.o [1]
-_call_main                    0xbf9         Code  Gb  cmain.o [4]
-_exit                         0xc15         Code  Gb  cexit.o [4]
-exit                          0xc0f    0x4  Code  Gb  exit.o [2]
-g_pppui32XTALtoVCO            0x6b8  0x1b0  Data  Lc  sysctl.o [3]
-g_pui32VCOFrequencies         0x898    0x8  Data  Lc  sysctl.o [3]
-g_pui32Xtals                  0x64c   0x6c  Data  Lc  sysctl.o [3]
-g_sXTALtoMEMTIM               0x868   0x30  Data  Lc  sysctl.o [3]
-main                          0xa2d   0xd6  Code  Gb  simple_io_main_sp.o [1]
+_call_main                    0xb51         Code  Gb  cmain.o [4]
+_exit                         0xb6d         Code  Gb  cexit.o [4]
+exit                          0xb67    0x4  Code  Gb  exit.o [2]
+g_pppui32XTALtoVCO            0x6c0  0x1b0  Data  Lc  sysctl.o [3]
+g_pui32VCOFrequencies         0x8a0    0x8  Data  Lc  sysctl.o [3]
+g_pui32Xtals                  0x654   0x6c  Data  Lc  sysctl.o [3]
+g_sXTALtoMEMTIM               0x870   0x30  Data  Lc  sysctl.o [3]
+main                          0xa03   0x66  Code  Gb  exercise_1.o [1]
 
 
 [1] = C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Obj
@@ -229,7 +227,7 @@ main                          0xa2d   0xd6  Code  Gb  simple_io_main_sp.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-   3'156 bytes of readonly  code memory
+   2'988 bytes of readonly  code memory
       16 bytes of readonly  data memory
   32'773 bytes of readwrite data memory
 

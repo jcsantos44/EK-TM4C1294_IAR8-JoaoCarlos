@@ -1,0 +1,16 @@
+# ninja log v5
+0	81	6365246143478462	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/startup_TM4C1294.o	f200645413488cfc
+13	262	6365246145238921	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	d30983f3b83ab379
+0	106	6365247034948046	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/system_TM4C1294_TW.o	94bc05d0e04bf44
+115	198	6365247035865590	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944
+1	234	6365251865376990	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	d30983f3b83ab379
+241	312	6365251866145195	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944
+6	114	6365252828974204	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/system_TM4C1294_TW.o	7a0b034ee95cc197
+3	75	6365252899149169	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	ac5935ea8f2bbca1
+81	153	6365252899897401	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944
+2	86	6365253511186939	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	ac5935ea8f2bbca1
+93	165	6365253511954872	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944
+2	183	6365270226942702	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	ac5935ea8f2bbca1
+190	263	6365270227750816	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944
+2	190	6365275321080964	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Obj/simple_io_main_sp.o	ac5935ea8f2bbca1
+196	268	6365275321858886	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_exception/Debug/Exe/exercise_exception.out	6ac2fd92e0a8a944

@@ -10,6 +10,12 @@
         <path>$WS_DIR$\Projects\exercise_1\exercise_1.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\Projects\exercise_exception\exercise_exception.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Projects\exercise_mode_stack\exercise_mode_stack.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\Projects\fsm_event\fsm_event.ewp</path>
     </project>
     <project>

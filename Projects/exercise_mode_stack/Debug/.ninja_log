@@ -1,0 +1,14 @@
+# ninja log v5
+5	106	6365203117933582	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/simple_io_main_sp.o	37f8444234657b51
+4	150	6365203118402332	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/system_TM4C1294_TW.o	91999c84858912a3
+0	170	6365203118601819	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/system_TM4C1294.o	c86ac4236e67b7e
+4	238	6365203459357936	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/startup_TM4C1294.o	2dc9161013b3810f
+242	320	6365203460076002	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Exe/exercise_mode_stack.out	862b8cab177f6c99
+2	190	6365210282348531	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/simple_io_main_sp.o	37f8444234657b51
+196	269	6365210283136318	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Exe/exercise_mode_stack.out	862b8cab177f6c99
+2	175	6365237320586519	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/simple_io_main_sp.o	37f8444234657b51
+183	254	6365237321354462	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Exe/exercise_mode_stack.out	862b8cab177f6c99
+2	110	6365238724473299	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/simple_io_main_sp.o	37f8444234657b51
+117	195	6365238725380864	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Exe/exercise_mode_stack.out	862b8cab177f6c99
+1	182	6365241484758828	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Obj/simple_io_main_sp.o	37f8444234657b51
+191	265	6365241485576636	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/exercise_mode_stack/Debug/Exe/exercise_mode_stack.out	862b8cab177f6c99

@@ -1,4 +1,4 @@
-"C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\src\simple_io_main_sp.c"
+"C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\simple_io_main_sp\src\simple_io_main_sp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
@@ -9,7 +9,7 @@ C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\Br
 -o
 C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\Debug\BrowseInfo\simple_io_main_sp.pbi
 -I
-C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_1\src
+C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\simple_io_main_sp\src
 -I
 C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\TivaWare_C_Series-2.1.4.178
 -I

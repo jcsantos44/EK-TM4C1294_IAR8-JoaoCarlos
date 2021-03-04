@@ -1,0 +1,15 @@
+C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_mode_stack\Debug\BrowseInfo\system_TM4C1294.pbi: \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_mode_stack\src\system_TM4C1294.c \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_mode_stack\src/TM4C1294NCPDT.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\core_cm4.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include/cmsis_version.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\exercise_mode_stack\src/system_TM4C1294.h
