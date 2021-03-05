@@ -11572,7 +11572,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "bool SysCtlPeripheralReady(uint32_t)",
+    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",
@@ -11586,7 +11586,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
+    "display": "bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",

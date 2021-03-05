@@ -40,7 +40,7 @@ float result = 0;
 void SysTick_Handler(void){
   LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
   GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
-  result = teste*teste2; //colocando aqui o reg CONTROL seta a flag FPCA
+//  result = teste*teste2; //colocando aqui o reg CONTROL seta a flag FPCA
 } // SysTick_Handler
 
 void main(void){
@@ -70,17 +70,17 @@ void main(void){
   SysTickEnable();
 
   while(1){
-    teste++;
-    result = teste*teste2;
+//    teste++;
+//    result = teste*teste2;
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0)
       // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3
     else
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, GPIO_PIN_4); // Acende LED D3
-//
-//    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == GPIO_PIN_1) // Testa estado do push-button SW2
-//      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Apaga LED D4
-//    else
-//      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Acende LED D4
+
+    if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1) == GPIO_PIN_1) // Testa estado do push-button SW2
+      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0); // Apaga LED D4
+    else
+      GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); // Acende LED D4
   } // while
 } // main

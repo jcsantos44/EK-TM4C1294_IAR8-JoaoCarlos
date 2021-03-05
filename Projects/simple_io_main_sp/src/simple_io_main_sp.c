@@ -7,6 +7,10 @@
 #include "driverlib/systick.h"
 
 uint8_t LED_D1 = 0;
+//float teste = 2.5;
+//float teste2 = 3.5;
+//float result = 0;
+
 
 void SysTick_Handler(void){
   LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
@@ -40,6 +44,8 @@ void main(void){
   SysTickEnable();
 
   while(1){
+//    teste++;
+//    result = teste*teste2;
     if(GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0) == GPIO_PIN_0) // Testa estado do push-button SW1
       GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); // Apaga LED D3
     else

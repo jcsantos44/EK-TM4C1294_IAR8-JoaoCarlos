@@ -14,13 +14,13 @@ uint8_t LED_D1 = 0;
 //typedef enum { off, on } state;
 //state state1;
 
-void SysTick_Handler(void){
-  LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
-  GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
-} // SysTick_Handler
+//void SysTick_Handler(void){
+//  LED_D1 ^= GPIO_PIN_1; // Troca estado do LED D1
+//  GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_1, LED_D1); // Acende ou apaga LED D1
+//} // SysTick_Handler
 
 void main(void){
-  SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
+//  SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
   
   SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); // Habilita GPIO F (LED D3 = PF4, LED D4 = PF0)
   while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)); // Aguarda final da habilitação
@@ -29,8 +29,8 @@ void main(void){
   GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0 | GPIO_PIN_4, 0); // LEDs D3 e D4 apagados
   GPIOPadConfigSet(GPIO_PORTF_BASE, GPIO_PIN_0 | GPIO_PIN_4, GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);
 
-  SysTickIntEnable();
-  SysTickEnable();
+//  SysTickIntEnable();
+//  SysTickEnable();
   
 //  uint32_t loops = delay*(clock/3);
 
@@ -43,9 +43,11 @@ void main(void){
     
     //para clock de 120000000Mhz
     SysCtlDelay(40000000);
-    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 1); 
+    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, GPIO_PIN_0); 
+//    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, GPIO_PIN_4); 
     SysCtlDelay(40000000);
     GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_0, 0);
+//    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_4, 0); 
     
     // Há variações na temporização do software nos casos de:
     //

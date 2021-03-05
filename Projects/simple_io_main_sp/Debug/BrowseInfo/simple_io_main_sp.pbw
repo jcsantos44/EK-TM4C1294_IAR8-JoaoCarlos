@@ -12485,7 +12485,7 @@
     "display": "void SysTick_Handler(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "15",
       "path": "C:\\Code\\EmbeddedSystems\\EK-TM4C1294_IAR8-JoaoCarlos\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
     },
     "name": "SysTick_Handler",
@@ -12499,7 +12499,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "20",
       "path": "C:\\Code\\EmbeddedSystems\\EK-TM4C1294_IAR8-JoaoCarlos\\Projects\\simple_io_main_sp\\src\\simple_io_main_sp.c"
     },
     "name": "main",
