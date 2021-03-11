@@ -1,0 +1,8 @@
+# ninja log v5
+6	268	6371763108773020	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Obj/startup_TM4C1294.o	88b020c5c94e55ab
+1	287	6371763108882726	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Obj/driverleds.o	3da9efd15a8aaf5
+221	372	6371763109722801	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Obj/system_TM4C1294_TW.o	5bbc113622aedd70
+1	87	6371763363862250	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Obj/fsm_state.o	5ce7b4bc38532de0
+96	187	6371763364849626	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Exe/fsm_state.out	12be65455733c2af
+2	85	6371764306803910	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Obj/fsm_state.o	5ce7b4bc38532de0
+93	174	6371764307651655	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/Exe/fsm_state.out	12be65455733c2af

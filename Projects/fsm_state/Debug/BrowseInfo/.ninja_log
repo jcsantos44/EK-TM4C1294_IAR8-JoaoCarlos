@@ -1,0 +1,18 @@
+# ninja log v5
+1	149	6371763130000000	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/driverleds.xcl	49a6eb4861d45ad8
+25	180	6371763130000000	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.xcl	f799e6d543625beb
+29	189	6371763130000000	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/system_TM4C1294_TW.xcl	960945360fc02153
+187	384	6371763133885946	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	ebb8e9c5f8b5bc65
+159	395	6371763133935553	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/driverleds.pbi	9fd201074e1407b0
+197	430	6371763134334782	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/system_TM4C1294_TW.pbi	f9aa310dd51a1b51
+435	497	6371763134926906	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	59a667878625598a
+1	586	6371763205673097	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	ae904c396f313b58
+1	48	6371763408050754	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	ebb8e9c5f8b5bc65
+52	94	6371763408509529	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	59a667878625598a
+100	808	6371763415411082	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	ae904c396f313b58
+2	67	6371764123534183	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	ebb8e9c5f8b5bc65
+72	106	6371764123963333	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	59a667878625598a
+111	682	6371764129508834	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	ae904c396f313b58
+1	48	6371764332740719	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbi	ebb8e9c5f8b5bc65
+52	98	6371764333249365	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbd	59a667878625598a
+103	866	6371764340669524	C:/Code/EmbeddedSystems/EK-TM4C1294_IAR8-JoaoCarlos/Projects/fsm_state/Debug/BrowseInfo/fsm_state.pbw	ae904c396f313b58

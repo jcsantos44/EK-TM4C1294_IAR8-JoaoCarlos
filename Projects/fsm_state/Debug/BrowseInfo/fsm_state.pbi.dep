@@ -1,0 +1,11 @@
+C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\fsm_state\Debug\BrowseInfo\fsm_state.pbi: \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\fsm_state\..\drivers\driverleds.h \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\fsm_state\..\..\TivaWare_C_Series-2.1.4.178\driverlib\systick.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Code\EmbeddedSystems\EK-TM4C1294_IAR8-JoaoCarlos\Projects\fsm_state\src\fsm_state.c
